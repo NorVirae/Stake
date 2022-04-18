@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+body{
+    background-color: #134C81;
+    color: #ffff;
+}
+.stake-container {
+    max-width: 70rem;
+    margin:auto;
+}
+
+body{
+
+}
+
+nav {
+    display:  flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: #ffff;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.connect-wallet-btn{
+    padding: .6rem .5rem;
+    background-image: linear-gradient(to right, #2d6797, #134C81  );
+    font-weight: bold;
+    border-radius: 3rem;
+    transition: background-image .5s ease-in-out;
+}
+
+.connect-wallet-btn:hover{
+    background-image: linear-gradient(to right, #134C81, #2d6797 );
+    cursor: pointer;
+    color: rgb(225, 225, 235);
+
+}
+
+.info-global{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    gap: 3rem;
+}
+
+.inner-container-left{
+    background-color: #0c5ba588;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:.5rem
+}
+
+.earn-text {
+    font-size: 1.2rem;
+}
+
+.sub{
+    font-size: .8rem;
+}
+
