@@ -1,0 +1,7 @@
+
+
+
+const getPricePercentage = (percent, amount) => {
+
+
+}
