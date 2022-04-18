@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+::-webkit-scrollbar{
+    background-color: #134C81;
+    width: .4rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0c5ba5;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+body{
+    background-color: #134C81;
+    color: #ffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.stake-container {
+    max-width: 70rem;
+    margin:auto;
+}
+
+
+nav {
+    display:  flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: #ffff;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.connect-wallet-btn{
+    padding: .6rem .5rem;
+    background-image: linear-gradient(to right, #2d6797, #134C81  );
+    font-weight: bold;
+    border-radius: 3rem;
+    transition: background-image .5s ease-in-out;
+}
+
+.connect-wallet-btn:hover{
+    background-image: linear-gradient(to right, #134C81, #2d6797 );
+    cursor: pointer;
+    color: rgb(225, 225, 235);
+
+}
+
+.info-global{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    gap: 9rem;
+}
+
+.info-main{
+    display: flex;
+    background-color: #05315a88;
+    border-radius: .9rem;
+    padding: .5rem .9rem;
+
+}
+
+.inner-container-left, .inner-container-right{
+
+    width: 100%;
+    padding: .9rem .8rem;
+    border-radius: .9rem;
+    display: flex;
+    flex-direction: column;
+    gap:2rem
+}
+
+
+
+.earn-text {
+    font-size: 1.2rem;
+}
+
+.sub{
+    font-size: .8rem;
+}
+
+.public-stake-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .9rem;
+    padding: .5rem;
+    gap: .4rem;
+
+    background-color: #0c5ba588;
+
+}
+
+
+.total-locked{
+    font-size: 1rem;
+
+}
+
+.total-locked-token{
+    font-size: 1.3rem;
+}
+
+.total-locked-dollars {
+    font-size: 1.3rem;
+}
+
+
+.connection-info{
+    display: flex;
+    flex-direction: column;
+    background-color: #05315a88;
+    border-radius: .9rem;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+}
+
+.connection-info-text {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.reward{
+    display: flex;
+    justify-content: space-between;
+    gap: .9rem;
+}
+
+.apr-card{
+    background-color: #05315a88;
+    padding: 1rem 1.3rem;
+    border-radius: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    gap: .9rem;
+}
+
+.mandela-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:.3rem;
+}
+
+.mandela{
+    font-size: 1rem;
+
+}
+
+.apr-announce{
+    font-size: 2rem;
+}
+
+.limit-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:.3rem;
+}
+
+.current-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:.3rem;
+}
+
+.stake-button{
+    border-radius: .9rem;
+    border: .1px solid white;
+    background-color: transparent;
+    padding: 1rem .6rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.stake-button:hover{
+    cursor: pointer;
+}
+
+.copyright-info{
+    display: flex;
+}
